@@ -1,0 +1,105 @@
+.wrapper {
+    position: relative;
+    width: 480px !important;
+    z-index: 102;
+    top: 2%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    margin: 0 auto;
+    transition: opacity 0.5s;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    overflow: hidden;
+    .heading {
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 10px 15px;
+        white-space: nowrap;
+        position: relative;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 12px;
+        line-height: 33px;
+        text-align: center;
+        .btn-right {
+            display: inline-block;
+            position: absolute;
+            width: 24px;
+            right: 10px;
+            top: 17px;
+            cursor: pointer;
+            font-size: 1.9rem;
+            border-radius: 50%;
+        }
+    }
+    .content {
+        min-height: 100px;
+        overflow-y: scroll;
+        padding: 10px 15px;
+        position: relative;
+        height: 400px !important;
+        .input {
+            height: 50px;
+            position: relative;
+            .icon {
+                position: absolute;
+                left: 13px;
+                top: 13px;
+                line-height: 50px;
+                padding: 0;
+                width: 24px;
+                height: 24px;
+                z-index: 2;
+            }
+            .inputItem {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 1;
+                padding-left: 45px;
+                height: 100%;
+                width: 100%;
+                background: #f4f5f8;
+                border-radius: 24px;
+                font-size: 1.6rem;
+            }
+        }
+        .location-list {
+            margin-top: 8px;
+            font-size: 1.6rem;
+            color: #000;
+            font-weight: 400;
+            .location-items {
+                height: 55px;
+                line-height: 55px;
+                padding-left: 12px;
+                .items {
+                    color: #000;
+                    cursor: pointer;
+                }
+                .items:hover {
+                    color: #f60;
+                    cursor: pointer;
+                }
+            }
+            .location-items:hover {
+                border-radius: 8px;
+                background-color: #f8f9fa;
+            }
+        }
+    }
+    .content::-webkit-scrollbar {
+        width: 10px;
+        margin-right: 10px;
+    }
+    .content::-webkit-scrollbar-thumb {
+        background: #f60;
+        border-radius: 5px;
+    }
+    .content::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px grey;
+        border-radius: 5px;
+    }
+}

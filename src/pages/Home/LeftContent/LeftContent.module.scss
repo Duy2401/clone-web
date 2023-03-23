@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    float: left;
+    position: relative;
+    left: 0;
+}
+.poster {
+    margin: 2.4rem 0;
+    width: 799px;
+    img {
+        width: 100%;
+        border-radius: 16px;
+        object-fit: fill;
+    }
+}

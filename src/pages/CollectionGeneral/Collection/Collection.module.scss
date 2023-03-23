@@ -1,0 +1,106 @@
+.inner {
+    margin-left: 8.333333%;
+    max-width: 83.333333%;
+}
+.breadcrumb_title {
+    background-color: transparent;
+    padding: 1.75rem 1rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.breadcrumb_item__link {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #80b2ec;
+}
+.breadcrumb_item {
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #666;
+    padding-left: 8px;
+    &::before {
+        content: '/';
+        font-weight: 600;
+        font-size: 1.4rem;
+        display: inline-block;
+        padding-right: 8px;
+    }
+}
+.Collection_img {
+    position: relative;
+}
+.thumbnail {
+    max-width: 920px;
+    height: 368px;
+    position: relative;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(
+        circle,
+        hsla(0, 0%, 97.6%, 0),
+        hsla(0, 0%, 72.5%, 0.231373),
+        hsla(0, 0%, 46.7%, 0.478431),
+        rgba(59, 59, 59, 0.780392),
+        #000
+    );
+    z-index: 2;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #aaa;
+    font-weight: 700;
+    padding: 16px 8px;
+}
+.list_collection {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_collection__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-height: 314px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.collection__item__inner {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 0 2px 0 rgba(0, 0, 0, 0.09);
+}
+.collection__item__img {
+    width: 100%;
+    height: 249px;
+    position: relative;
+}
+.collection__item__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    height: 55px;
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 600;
+    padding: 8px;
+    float: left;
+}

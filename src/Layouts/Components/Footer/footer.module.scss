@@ -1,0 +1,93 @@
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+}
+.footer_line {
+    width: 100%;
+    float: left;
+    border: 1px solid #f0f2f4;
+}
+.footer_content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 1140px;
+}
+.footer_info {
+    width: 100%;
+    margin-bottom: 24px;
+    float: left;
+}
+.info_right__item {
+    display: inline-block;
+}
+.info_left {
+    float: left;
+}
+.icon_riviu__footer {
+    background-image: url('https://riviu.vn/images/icon_riviu.png');
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: 1171px;
+    background-position: -229px -42px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+.text_riviu__footer {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 40px;
+    white-space: nowrap !important;
+}
+.info_right {
+    float: right;
+}
+.info_right a h4 {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #898c95;
+    line-height: 36px;
+    margin-left: 20px;
+    font-weight: 500;
+    &:hover {
+        color: #333;
+    }
+}
+.footer_description {
+    width: 100%;
+    float: left;
+    margin: 24px 0;
+    color: #898c95;
+    font-size: 1.7rem;
+}
+.footer_keyword {
+    width: 100%;
+    float: left;
+}
+.footer_list {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 24px;
+    float: left;
+    position: relative;
+}
+.footer_list h4 {
+    font-size: 1.7rem;
+    color: black;
+}
+.list_items .item {
+    height: 64px;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-right: 20px;
+    line-height: 64px;
+    color: #898c95;
+    cursor: pointer;
+    &:hover {
+        color: #000;
+    }
+}

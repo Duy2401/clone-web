@@ -1,0 +1,323 @@
+.wrapper {
+    max-width: 1140px;
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.inner {
+    width: 100%;
+}
+.header_panel {
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.panel_img {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.thumbnail_img {
+    width: 100%;
+    position: relative;
+}
+.thumbnail {
+    width: 100%;
+    height: 410px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.num_place {
+    color: #000;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title {
+    color: #000;
+    font-size: 3rem;
+    text-align: center;
+}
+.description {
+    color: #898c95;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+}
+.line {
+    border-top: 1px solid #f0f2f4;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.menu_select {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+.menu_selected__item {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 600;
+    &:nth-child(2) {
+        color: #898c95;
+        &:hover {
+            color: #000;
+        }
+    }
+    &:hover {
+        color: #f60;
+    }
+}
+.menu_selected__item .item_gray {
+    color: #898c95;
+}
+
+.content_left {
+    width: 330px;
+    float: left;
+}
+.arrange {
+    width: 95%;
+    float: left;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 20px;
+    &:hover {
+        transition: box-shadow 0.25s;
+        box-shadow: 1px 1px 6px 3px hsla(0, 0%, 80.8%, 0.45882);
+    }
+}
+.arrange_title__text {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: #898c95;
+    font-weight: 600;
+    &:hover {
+        color: #000;
+    }
+}
+.arrange_title__select {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    border: none;
+    font-size: 1.6rem;
+}
+.arrange_title__select option {
+    border: none;
+}
+.Evaluate {
+    width: 95%;
+    float: left;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 20px;
+    &:hover {
+        transition: box-shadow 0.25s;
+        box-shadow: 1px 1px 6px 3px hsla(0, 0%, 80.8%, 0.45882);
+    }
+}
+.filter_line {
+    width: 100%;
+    border-top: 0.5px solid #dcdcdc;
+    margin: 10px 0;
+}
+.btn_star__item {
+    white-space: nowrap;
+    border-radius: 10px;
+    border: 0.5px solid #dcdcdc;
+    width: calc(33.33333% - 15px);
+    float: left;
+    margin-right: 15px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-style: 600;
+    cursor: pointer;
+    &:hover {
+        transition: box-shadow 0.25s;
+        box-shadow: 1px 1px 6px 3px hsla(0, 0%, 80.8%, 0.45882);
+    }
+}
+
+// REVIEW_ITEMS
+.content_right {
+    width: calc(100% - 330px);
+    float: left;
+}
+.reviews_item {
+    background-color: #fff;
+    position: relative;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    &:hover {
+        transition: box-shadow 0.25s;
+        box-shadow: 1px 1px 6px 3px hsla(0, 0%, 80.8%, 0.45882);
+    }
+}
+.info_item {
+    position: relative;
+    padding: 25px;
+}
+.info_item__author {
+    display: flex;
+    align-items: center !important;
+}
+.info_avt {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid #f0f2f4;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+.info_user {
+    width: calc(100% - 130px);
+    float: left;
+    margin-left: 16px;
+}
+.info_user__name {
+    display: flex;
+    align-items: center;
+}
+.user_name__text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+}
+.user_name__thumbnail {
+    width: 40px;
+    height: 16px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.info_user__time {
+    font-size: 1.6rem;
+    color: #898c95;
+    cursor: pointer;
+}
+
+.info_data__Rating {
+    margin-top: 5px;
+    display: inline-block;
+    width: 100%;
+}
+.icon_start {
+    color: #f60;
+    font-size: 2rem;
+}
+.data_post {
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.data_point {
+    font-size: 1.6rem;
+    color: #000;
+}
+.info_item__title .item__title {
+    color: #000;
+    font-size: 1.6rem;
+    margin-top: 12px;
+    font-weight: 600;
+    &:hover {
+        color: #f60;
+    }
+}
+.info_item__desc {
+    color: #000;
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+}
+.see_more {
+    color: #aeaeae;
+    font-size: 1.6rem;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    top: 48px;
+    right: 72px;
+
+    &:hover {
+        color: #f60;
+    }
+}
+.info_item__media {
+    margin-bottom: 16px;
+}
+.info_item__list {
+    display: flex;
+}
+.item_media__item {
+    position: relative;
+    float: left;
+    padding: 3px;
+    width: 73px;
+    height: 73px;
+    cursor: pointer;
+    img {
+        border-radius: 8px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        &:hover {
+            transition: box-shadow 0.25s;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+        }
+    }
+}
+.info_item__action {
+    display: flex;
+    align-items: center;
+}
+.like_icon {
+    margin-top: 2px;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    color: #898c95;
+    cursor: pointer;
+    &:hover {
+        color: #da4567;
+    }
+}
+.item_action__like_point {
+    font-size: 1.6rem;
+    color: #000;
+    margin-right: 19px;
+}
+.comment_icon {
+    background-image: url('https://riviu.vn/images/icon_riviu.png');
+    background-repeat: no-repeat;
+    background-position: -540px -186px;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: 1171px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

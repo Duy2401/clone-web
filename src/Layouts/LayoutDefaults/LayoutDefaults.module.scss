@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.inner {
+    width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    width: 72%;
+    float: left;
+}

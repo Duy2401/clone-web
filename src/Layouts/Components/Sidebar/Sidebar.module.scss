@@ -1,0 +1,252 @@
+.wrapper {
+    width: calc(28% - 24px);
+    height: 500px;
+    margin-left: 24px;
+    float: left;
+}
+
+// REGISTER
+.register {
+    width: 100%;
+    background-color: #fff;
+    margin: 24px 0;
+    padding: 20px 0;
+    float: left;
+    border-radius: 20px;
+}
+.img {
+    width: 120px;
+    height: 120px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.register_description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 20px;
+    cursor: pointer;
+    color: #898c95;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+        color: black;
+    }
+}
+.register_button {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+}
+.register_item {
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+// LIST_BANNER
+.list_banner {
+    padding-top: 5px;
+    float: left;
+    width: 100%;
+}
+.img_poster {
+    margin-top: 20px;
+    width: 100%;
+}
+.img_poster a img {
+    width: 100%;
+}
+.img_poster:nth-child(3) {
+    height: 300px;
+}
+
+// FACEBOOK
+.facebook {
+    position: relative;
+    min-width: 340px;
+    display: inline-block;
+    height: 130px;
+    overflow: hidden;
+}
+.facebook .riviu_backgroud {
+    width: 100%;
+}
+.facebook_heading {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+.riviu_logo {
+    float: left;
+}
+.facebook_heading .riviu_logo__item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+}
+.facebook_nameWeb {
+    display: inline-block;
+}
+.facebook_title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.facebook_title h4 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.pseudo_class {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.count_Like {
+    color: #fff;
+    font-size: 1.2rem;
+}
+.icon_Check {
+    background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/iZv9i3nMpKe.png');
+    background-repeat: no-repeat;
+    background-size: 30px 180px;
+    background-position: -1px -31px;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+}
+.facebook_Action {
+    bottom: 7px;
+    height: 24px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+.icon_Like {
+    color: #375798;
+}
+.btn_like {
+    padding: 3px 15px;
+    float: left;
+    margin-left: 5px;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.icon_Share {
+    color: #898c95;
+}
+.btn_share {
+    margin-right: 5px;
+    padding: 3px 15px;
+    float: right;
+    text-decoration: none;
+    background-color: #fff;
+}
+.btn_like span,
+.btn_share span {
+    color: #4b4f56;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+//LOCATION_OUTSTANDING
+.location_outstanding {
+    width: 100%;
+    margin-top: 24px;
+    background-color: #fff;
+    float: left;
+    border-radius: 24px;
+}
+.location_heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #898c95;
+    padding: 24px 24px 16px;
+}
+.line {
+    border-top: 1px solid #f0f2f4;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+}
+.location_list {
+    margin-top: 4px;
+    padding: 0 8px 16px 8px;
+}
+
+.location_list__item {
+    margin-top: 4px;
+    padding: 10px 10px 5px;
+    display: flex;
+    align-items: center !important;
+    text-decoration: none;
+    border-radius: 16px;
+    color: #000;
+    &:hover {
+        background-color: #f0f2f4;
+    }
+}
+.location_list_thumbnail {
+    width: 18%;
+    border-radius: 6px;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    position: relative;
+}
+.location_list__item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.location_desc {
+    width: 80%;
+    margin-left: 16px;
+}
+.location_desc h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.location_desc p {
+    width: 90%;
+    font-size: 1.4rem;
+    color: #898c95;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.location_rating {
+    display: flex;
+}
+.location_rating .icon_start {
+    width: 20px;
+    height: 20px;
+    color: #f60;
+    padding-right: 3px;
+}
+.location_rating .span_post {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000;
+}
+.location_rating .span_point {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #000;
+}

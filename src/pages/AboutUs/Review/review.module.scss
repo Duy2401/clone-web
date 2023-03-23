@@ -1,0 +1,154 @@
+.wrapper {
+    position: relative;
+}
+.top_banner__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+.box_info {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+}
+.box_info__inner {
+    width: 37%;
+}
+.box_info__text {
+}
+.box_info_heading {
+    font-size: 2.9rem;
+    color: #fff;
+}
+.box_info_description {
+    color: white;
+    font-size: 1.8rem;
+    margin: 18px 0 38px;
+}
+.box_info_download {
+    display: flex;
+}
+.box_info_download__btn {
+    width: 128px;
+    height: 46px;
+}
+.icon {
+    display: inline-block;
+    font-size: 4rem;
+    padding: 0 10px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+.iconGooglePlay {
+    display: inline-block;
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+.box_info_download_text {
+    padding-top: 7px;
+    line-height: 15px;
+    text-align: center;
+}
+.box_download_ios_text1 {
+    font-size: 7px;
+    float: left;
+}
+.box_download_ios_text2 {
+    font-size: 13px;
+    font-weight: 500;
+    float: left;
+}
+.qr_code {
+    position: relative;
+    display: inline;
+    cursor: pointer;
+}
+.qr_code__small:hover ~ .qr_code__large {
+    position: absolute;
+    left: -74px;
+    visibility: visible;
+}
+.qr_code__large {
+    position: absolute;
+    left: -74px;
+    visibility: hidden;
+}
+.top_banner_content {
+    background: rgb(243, 243, 243);
+}
+.top_banner_content__inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    padding-top: 64px;
+}
+.top_content__inner,
+.bottom_banner__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.top_banner_image,
+.top_banner_title {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+.top_banner_image img,
+.bottom_banner__image img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.top_banner_title {
+    height: 105vh;
+}
+.top_banner_heading,
+.bottom_banner__heading {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.top_banner_desc,
+.bottom_banner__desc {
+    font-size: 1.8rem;
+    margin-top: 18px;
+    margin-bottom: 38px;
+}
+
+.bottom_banner {
+    background-color: #fff;
+}
+.bottom_banner__inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+.bottom_banner__image,
+.bottom_banner__title {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+.bottom_banner__title {
+    height: 76vh;
+}
